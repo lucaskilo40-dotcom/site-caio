@@ -157,7 +157,13 @@ src="https://www.facebook.com/tr?id=1164707598850781&ev=PageView&noscript=1"
         <section class="video-section">
             <div class="container">
                 <div class="video-wrapper">
-                    <vturb-smartplayer id="vid-68fffb7d818c013eeb432620" style="display: block; margin: 0 auto; width: 100%; "></vturb-smartplayer> <script type="text/javascript"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/751b2dfe-b866-484b-b7b9-0c805894c32e/players/68fffb7d818c013eeb432620/v4/player.js", s.async=!0,document.head.appendChild(s); </script>
+                    <vturb-smartplayer id="vid-690cd7b6a60a97af2e73b89e" style="display: block; margin: 0 auto; width: 100%;"></vturb-smartplayer>
+                    <script type="text/javascript">
+                        var s = document.createElement("script");
+                        s.src = "https://scripts.converteai.net/8a5947b5-f8d2-4352-aba3-91a6de94504b/players/690cd7b6a60a97af2e73b89e/v4/player.js";
+                        s.async = true;
+                        document.head.appendChild(s);
+                    </script>
                 </div>
             </div>
         </section>
@@ -284,34 +290,14 @@ src="https://www.facebook.com/tr?id=1164707598850781&ev=PageView&noscript=1"
             </div>
         </section>
 
-        <!-- Seção Doação PIX -->
-        <section class="donation-section" id="como-doar-pix">
+        <!-- Call to Action Final -->
+        <section class="cta-section">
             <div class="container">
-                <h2 class="section-title">Como Ajudar via PIX</h2>
-                <div class="pix-image">
-                    <img src="images/pixxx.png" alt="QR Code PIX" class="pix-qr" loading="lazy">
-                </div>
-                <div class="pix-container">
-                    <div class="pix-instructions">
-                        <h3>Passos para apoiar a causa:</h3>
-                        <ol>
-                            <li>Copie a chave PIX clicando no botão abaixo</li>
-                            <li>Abra seu app bancário e escolha "PIX" → "Transferir"</li>
-                            <li>Cole a chave PIX e digite o valor que deseja contribuir</li>
-                            <li>Confirme e finalize - sua doação chegará instantaneamente!</li>
-                        </ol>
-                    </div>
-                    <div class="pix-key-container">
-                        <div class="pix-key" id="pixKey">doar.refugiotiare@gmail.com</div>
-                        <div class="pix-recipient">Recebedor: <strong>REFUGIO TIA RÊ</strong></div>
-                        <button class="copy-btn">
-                            <span class="copy-icon">📋</span>
-                            Copiar Chave PIX
-                        </button>
-                    </div>
-
-                    <p class="donation-footer">Qualquer valor é bem-vindo. Sua contribuição faz toda a diferença na vida desses animais!</p>
-                </div>
+                <h2>Faça Parte Desta História</h2>
+                <p>Cada doação, cada compartilhamento, cada gesto de amor faz a diferença na vida de centenas de animais que dependem da nossa ajuda.</p>
+                <button class="cta-btn" onclick="openDonationModal()">
+                    Quero Ajudar Agora 💚
+                </button>
             </div>
         </section>
 
@@ -566,16 +552,7 @@ src="https://www.facebook.com/tr?id=1164707598850781&ev=PageView&noscript=1"
             </div>
         </section> -->
 
-        <!-- Call to Action Final -->
-        <section class="cta-section">
-            <div class="container">
-                <h2>Faça Parte Desta História</h2>
-                <p>Cada doação, cada compartilhamento, cada gesto de amor faz a diferença na vida de centenas de animais que dependem da nossa ajuda.</p>
-                <button class="cta-btn" onclick="openDonationModal()">
-                    Quero Ajudar Agora ❤️
-                </button>
-            </div>
-        </section>
+        
     </main>
 
     <!-- Footer -->
@@ -648,13 +625,13 @@ src="https://www.facebook.com/tr?id=1164707598850781&ev=PageView&noscript=1"
             <h3 id="donationModalTitle">Escolha um valor para doar</h3>
             <p id="donationModalDescription" class="donation-modal__subtitle">Selecione um valor para abrir o checkout seguro.</p>
             <div class="donation-modal__options">
-                <button type="button" class="donation-modal__option" data-amount="15" data-checkout-url="https://exemplo.com/checkout?valor=15">R$ 15</button>
-                <button type="button" class="donation-modal__option" data-amount="30" data-checkout-url="https://exemplo.com/checkout?valor=30">R$ 30</button>
-                <button type="button" class="donation-modal__option" data-amount="50" data-checkout-url="https://exemplo.com/checkout?valor=50">R$ 50</button>
-                <button type="button" class="donation-modal__option" data-amount="75" data-checkout-url="https://exemplo.com/checkout?valor=75">R$ 75</button>
-                <button type="button" class="donation-modal__option" data-amount="150" data-checkout-url="https://exemplo.com/checkout?valor=150">R$ 150</button>
-                <button type="button" class="donation-modal__option" data-amount="350" data-checkout-url="https://exemplo.com/checkout?valor=350">R$ 350</button>
-                <button type="button" class="donation-modal__option" data-amount="750" data-checkout-url="https://exemplo.com/checkout?valor=750">R$ 750</button>
+                <button type="button" class="donation-modal__option" data-amount="15" data-checkout-url="https://seguro.doarrefugiodatiare.online/api/public/shopify?product=1753714158185&store=17537">R$ 15</button>
+                <button type="button" class="donation-modal__option" data-amount="30" data-checkout-url="https://seguro.doarrefugiodatiare.online/api/public/shopify?product=1753761613263&store=17537">R$ 30</button>
+                <button type="button" class="donation-modal__option" data-amount="50" data-checkout-url="https://seguro.doarrefugiodatiare.online/api/public/shopify?product=1753741345666&store=17537">R$ 50</button>
+                <button type="button" class="donation-modal__option" data-amount="75" data-checkout-url="https://seguro.doarrefugiodatiare.online/api/public/shopify?product=1753753616464&store=17537">R$ 75</button>
+                <button type="button" class="donation-modal__option" data-amount="150" data-checkout-url="https://seguro.doarrefugiodatiare.online/api/public/shopify?product=1753749988735&store=17537">R$ 150</button>
+                <button type="button" class="donation-modal__option" data-amount="350" data-checkout-url="https://seguro.doarrefugiodatiare.online/api/public/shopify?product=1753779381588&store=17537">R$ 350</button>
+                <button type="button" class="donation-modal__option" data-amount="750" data-checkout-url="https://seguro.doarrefugiodatiare.online/api/public/shopify?product=1753763233223&store=17537">R$ 750</button>
             </div>
             <p class="donation-modal__note">Se precisar de outro valor, fale conosco pelo WhatsApp.</p>
         </div>
@@ -722,6 +699,7 @@ src="https://www.facebook.com/tr?id=1164707598850781&ev=PageView&noscript=1"
 
 
 </body></html>
+
 
 
 
